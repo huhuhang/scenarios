@@ -1,0 +1,58 @@
+{
+  "type": "challenge",
+  "title": "Fibonacci Generator",
+  "description": "In this challenge, you will create a program that generates the Fibonacci sequence.",
+  "difficulty": "Beginner",
+  "time": 10,
+  "details": {
+    "steps": [
+      {
+        "title": "Fibonacci Generator",
+        "text": "step1.md",
+        "verify": [
+          {
+            "name": "Testing fibonacci.py",
+            "file": "verify1.sh",
+            "hint": "Please replace this text with the hint of the verify script",
+            "timeout": 0,
+            "showstderr": true
+          }
+        ],
+        "skills": [
+          "python/generator",
+          "python/for_loop",
+          "python/python_scripts",
+          "python/assignment",
+          "python/range",
+          "python/yield_values",
+          "python/function_basic",
+          "python/function_arguments",
+          "python/packages"
+        ]
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "background": "setup.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    },
+    "assets": {
+      "host01": [
+        {
+          "file": "fibonacci.py",
+          "target": "/home/project",
+          "chmod": "ugo+rwx"
+        },
+        {
+          "file": "*_test.py",
+          "target": "/tmp"
+        }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "webide-ubuntu:2004"
+  }
+}
