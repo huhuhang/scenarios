@@ -2,12 +2,11 @@
 name: New Challenge Scenario
 about: Create a new Challenge
 title: challenge-name-use-lowercase
-labels: New,Challenge
+labels: New,Challenge,Easy
 assignees: ""
 ---
 
-> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first.**
-> **请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
+> **Please read [For Newbie](https://github.com/labex-labs/scenarios/issues/18) first. 请先阅读 [新手须知](https://github.com/labex-labs/scenarios/issues/18)。**
 
 ## Basic
 
