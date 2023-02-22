@@ -41,7 +41,7 @@
       "host01": [
         {
           "file": "date_flip.py",
-          "target": "/home/project",
+          "target": "/home/labex/project",
           "chmod": "ugo+rwx"
         },
         {
@@ -52,6 +52,6 @@
     }
   },
   "backend": {
-    "imageid": "webide-ubuntu:2004"
+    "imageid": "webide-ubuntu:2204"
   }
 }

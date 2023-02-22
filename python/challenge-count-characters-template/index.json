@@ -32,7 +32,7 @@
       "host01": [
         {
           "file": "count_characters.py",
-          "target": "/home/project",
+          "target": "/home/labex/project",
           "chmod": "ugo+rwx"
         },
         {
@@ -43,6 +43,6 @@
     }
   },
   "backend": {
-    "imageid": "webide-ubuntu:2004"
+    "imageid": "webide-ubuntu:2204"
   }
 }
