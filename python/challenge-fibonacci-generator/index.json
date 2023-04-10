@@ -28,7 +28,8 @@
           "python/function_basic",
           "python/function_arguments",
           "python/packages"
-        ]
+        ],
+        "solutions": ["fibonacci.py"]
       }
     ],
     "intro": {
