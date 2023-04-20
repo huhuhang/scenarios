@@ -1,3 +1,6 @@
+import sys
+sys.path.append("/home/labex/project")
+
 import unittest
 from fibonacci_generator import fibonacci_generator
 
