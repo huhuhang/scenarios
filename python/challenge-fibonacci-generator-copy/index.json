@@ -1,0 +1,53 @@
+{
+    "type": "challenge",
+    "title": "Fibonacci Generator Copy",
+    "description": "In this challenge, you will learn how to create a generator that generates the Fibonacci sequence. ",
+    "difficulty": "Beginner",
+    "time": 5,
+    "details": {
+        "steps": [
+            {
+                "title": "Fibonacci Generator",
+                "text": "step1.md",
+                "verify": [
+                    {
+                        "name": "Please implement fibonacci_generator.py correctly.",
+                        "file": "verify1.sh",
+                        "hint": "Please replace this text with the hint of the verify script",
+                        "timeout": 0,
+                        "showstderr": true
+                    }
+                ],
+                "skills": [
+                    "python/generator", "python/function_arguments"
+                ],
+                "solutions": [
+                    "fibonacci_generator.py"
+                ]
+            }
+        ],
+        "intro": {
+            "text": "intro.md",
+            "background": "setup.sh"
+        },
+        "finish": {
+            "text": "finish.md"
+        },
+        "assets": {
+            "host01": [
+                {
+                    "file": "fibonacci_generator.py",
+                    "target": "/home/labex/project",
+                    "chmod": "777"
+                },
+                {
+                    "file": "fibonacci_generator_test.py",
+                    "target": "/tmp"
+                }
+            ]
+        }
+    },
+    "backend": {
+        "imageid": "webide-ubuntu:2204"
+    }
+}
